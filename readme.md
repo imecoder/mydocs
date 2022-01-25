@@ -1,0 +1,19 @@
+# 数据库
+
+- [nosql](nosql/readme.md)
+- **mongodb**
+  - [官网](https://www.mongodb.com/) —— <https://www.mongodb.com/>
+  - [命令api](https://api.mongodb.com/js/current/) —— <https://api.mongodb.com/js/current/>
+  - [安装](mongodb/mongo.install.md)
+  - [对c,c++的driver安装](mongodb/drivers.install.md)
+  - [学习](mongodb/study/readme.md)
+  - [用户角色配置](mongodb/auth.md)
+  - [坑:generic server error](mongodb/mongo.keng1.md)
+  - [MongoDB数据导入导出和备份恢复](mongodb/mongodb.backup.md)
+  - [mongodb监控的关键命令](mongodb/cmd.memory.md)
+  - [mongodb哪些数据在占用内存](mongodb/data.memory.md)
+  - [MongoDB如何使用内存？为什么内存满了？](mongodb/mongodb.memory.md)
+  - [如何解决MongoDB内存过大问题](mongodb/mongodb.memory01.md)
+- [mysql](mysql/readme.md)
+- [postgresql](postgresql/readme.md)
+  - [安装](postgresql/progresql.install.md)
