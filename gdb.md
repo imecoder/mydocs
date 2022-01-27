@@ -6,14 +6,14 @@
 
 ## 1. 启动
 
-| 命令                | 介绍                                               |
-| ------------------- | -------------------------------------------------- |
-| gdb                 | 启动gdb                                            |
-| gdb -tui            | 接将屏幕分成两个部分，上面显示源代码，比用list方便 |
-| gdb <program>       | 调试指定程序                                       |
-| gdb <program> core  | 运行加载core dump文件，重现出错现场。              |
-| gdb <program> <PID> | program的某进程                                    |
-| gdb <PID>           | 调试指定进程                                       |
+命令| 介绍
+:--- | :---
+gdb | 启动gdb
+gdb -tui | 接将屏幕分成两个部分，上面显示源代码，比用list方便
+gdb <program> | 调试指定程序
+gdb <program> core | 运行加载core dump文件，重现出错现场。
+gdb <program> <PID> | program的某进程
+gdb <PID> | 调试指定进程
 
 ## 2. 基本命令
 
