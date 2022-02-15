@@ -69,3 +69,14 @@ yarn           #用yarn安装package.json所有依赖包到node_modules目录
 rm -rf node_modules/
 npm cache clean
 ```
+
+## 4. 说明
+
+| 命令    | 介绍                                               |
+| ------- | -------------------------------------------------- |
+| npm     | 软件安装程序，相当于apt                            |
+| yarn    | 另外一种软件安装程序而已                           |
+| nvm     | 使用来切换nodejs版本的工具                         |
+| node    | 是用来 构建，编译，运行 nodejs 程序的，是js程序    |
+| ts-node | 是用来 构建，编译，运行 typescript程序的，是ts程序 |
+
