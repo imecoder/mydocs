@@ -14,3 +14,5 @@
 - [ipfs](ipfs/readme.md)
 - [xrp瑞波](xrp/readme.md)
 - [百度超级链](baidu.xuper/readme.md)
+
+- [智能合约](智能合约/readme.md)
