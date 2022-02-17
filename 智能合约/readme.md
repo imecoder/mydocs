@@ -2,10 +2,9 @@
 
 - solidity官方文档 —— <https://learnblockchain.cn/docs/solidity/>
 
-## 开发环境
-
 - [remix官方地址](https://remix.ethereum.org/)
 - [remix本地安装](安装.md)
+- [solidity合约的升级](https://learnblockchain.cn/article/1990)
 
 ----
 
@@ -23,3 +22,4 @@ npx hardhat run test/SushiswapBank.test.ts		#运行 test/test.ts 脚本
 - [hardhat我自己的总结](hardhat/mine.md)
 - [hardhat使用deploy插件)—— npx hardhat deploy](hardhat/deploy.md)
 
+- [linux上hardhat下载sol编译器时需要配置代理](hardhat/proxy.md)
