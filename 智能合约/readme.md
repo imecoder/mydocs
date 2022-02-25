@@ -1,9 +1,9 @@
 # solidity
 
 - solidity官方文档 —— <https://learnblockchain.cn/docs/solidity/>
-
 - [remix官方地址](https://remix.ethereum.org/)
 - [remix本地安装](安装.md)
+- [**solidity重点**](solidity/solidity.md)
 - [solidity合约的升级](https://learnblockchain.cn/article/1990)
 
 ----
@@ -14,7 +14,6 @@
 ```bash
 npx hardhat test test/SushiswapBank.test.ts		#测试 test/test.ts 脚本
 npx hardhat run test/SushiswapBank.test.ts		#运行 test/test.ts 脚本
-
 ```
 
 - [升级智能合约(Hardhat)](https://learnblockchain.cn/article/1990)
