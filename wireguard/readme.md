@@ -41,7 +41,7 @@ umask 077
 ### 2.4 生成密钥对
 
 ```
-wg genkey | tee privatekey | wg pubkey > publickey
+wg genkey | tee prvkey | wg pubkey > pubkey
 ```
 
 ## 3. 分别在两台主机上配置互通
