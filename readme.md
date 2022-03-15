@@ -1,5 +1,6 @@
 # 运维
 
+- [shadowsocks](shadowsocks/readme.md)
 - [nginx](nginx/readme.md)
 - [docker](docker/readme.md)
 - [docker-compose](docker-compose/readme.md)
