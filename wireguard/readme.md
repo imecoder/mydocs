@@ -48,14 +48,14 @@ wg genkey | tee prvkey | wg pubkey > pubkey
 
 ### 3.1 北京
 
-```ini
-vim /etc/wireguard/wg0.conf
+`vim /etc/wireguard/wg0.conf`
 
+```ini
 [Interface]
 	PrivateKey = 8EZxYM65aOWZzZXH20KYNXhr/Ypmk9f9bigE8=     # 北京的privatekey
 	ListenPort = 36725
-	PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o  ens3   -j MASQUERADE; ip6tables -A FORWARD -i wg0 -j ACCEPT; ip6tables -t nat -A POSTROUTING -o  ens3  -j MASQUERADE
-	PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o  ens3  -j MASQUERADE; ip6tables -D FORWARD -i wg0 -j ACCEPT; ip6tables -t nat -D POSTROUTING -o  ens3  -j MASQUERADE
+	PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o  eth0   -j MASQUERADE; ip6tables -A FORWARD -i wg0 -j ACCEPT; ip6tables -t nat -A POSTROUTING -o  eth0  -j MASQUERADE
+	PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o  eth0  -j MASQUERADE; ip6tables -D FORWARD -i wg0 -j ACCEPT; ip6tables -t nat -D POSTROUTING -o  eth0  -j MASQUERADE
 
 [Peer]
 	PublicKey = RS0sz+BDOXriUB8FfjE7JscDl51QwWQE=      # 香港的publickey
@@ -68,12 +68,14 @@ vim /etc/wireguard/wg0.conf
 
 ### 3.2 香港
 
+`vim /etc/wireguard/wg0.conf`
+
 ```ini
 [Interface]
         PrivateKey = 2DlBQXFQ6+RL1m6HotQWjO/RUZ3QoyCgBd+uEI=    # 香港的privatekey
         ListenPort = 36725
-        PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o  ens3   -j MASQUERADE; ip6tables -A FORWARD -i wg0 -j ACCEPT; ip6tables -t nat -A POSTROUTING -o  ens3  -j MASQUERADE
-        PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o  ens3  -j MASQUERADE; ip6tables -D FORWARD -i wg0 -j ACCEPT; ip6tables -t nat -D POSTROUTING -o  ens3  -j MASQUERADE
+        PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o  eth0   -j MASQUERADE; ip6tables -A FORWARD -i wg0 -j ACCEPT; ip6tables -t nat -A POSTROUTING -o  eth0  -j MASQUERADE
+        PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o  eth0  -j MASQUERADE; ip6tables -D FORWARD -i wg0 -j ACCEPT; ip6tables -t nat -D POSTROUTING -o  eth0  -j MASQUERADE
 
 [Peer]
         PublicKey = bH8XMpVo9nicez9McZRrO7aEIpkzmnf7FoIUs=    # 北京的publickey

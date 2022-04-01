@@ -10,6 +10,13 @@
 ssserver -p 8388 -k password -m rc4-md5 -d start
 ```
 
+- Ubuntu20.04上可能存在启动失败的情况，进行如下操作:
+
+```bash
+sed -i 's/cleanup/reset/g' /usr/local/lib/python3.8/dist-packages/shadowsocks/crypto/openssl.py
+```
+
+
 ### 1.2 使用配置文件启动
 
 执行 `vim /etc/shadowsocks.json` 添加如下内容：
@@ -63,7 +70,7 @@ ssserver -c /etc/shadowsocks.json -d stop
 
 ## 2. 开机自启
 
-编辑一下 `vim /etc/supervisord.conf` 文件:
+创建文件 `/etc/supervisor/conf.d/shadowsocks.conf`
 
 ```ini
 [program:shadowsocks]

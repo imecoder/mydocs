@@ -6,13 +6,21 @@
 
 ### 1.1 debian/ubuntu
 
+- ubuntu 16.04
+
 ```bash
-# ubuntu 16.04
 apt -y install python-pip
+```
 
-# ubuntu 20.04
+- ubuntu 20.04
+
+```bash
 apt -y install python3-pip
+```
 
+- 安装
+
+```bash
 pip install shadowsocks -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 ```
 
