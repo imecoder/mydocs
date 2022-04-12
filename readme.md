@@ -16,3 +16,4 @@
 - [百度超级链](baidu.xuper/readme.md)
 
 - [智能合约](智能合约/readme.md)
+- [WebAssembly](WebAssembly/readme.md)
