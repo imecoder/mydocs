@@ -6,3 +6,4 @@
 	- [vscode美化](beautify/vscode/readme.md)
 	- [定时Firefox UI](beautify/firefox/readme.md)
 	- [移除文件管理器的OneDrive](beautify/onedrive/readme.md)
+	- [鼠标右键菜单定制](mouse.menu/readme.md)
