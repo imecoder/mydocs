@@ -23,8 +23,8 @@
     "json.maxItemsComputed": 100000,
     "workbench.colorCustomizations": {
     "[Atom One Light]": {
-        "editor.background": "#d5efff",   
-        "sideBar.background": "#c9f4e9",
+        "editor.background": "#c9f4e9",   
+        "sideBar.background": "#d5efff",
         "sideBar.border": "#ff0000",
         "statusBar.background": "#009dffb5",
         "activityBar.background": "#ebd5e8", 
