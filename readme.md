@@ -1,6 +1,5 @@
 # 运维
 
-- [shadowsocks](shadowsocks/readme.md)
 - [nginx](nginx/readme.md)
 - [docker](docker/readme.md)
 - [docker-compose](docker-compose/readme.md)
@@ -10,4 +9,4 @@
 - [zookeeper](zookeeper/readme.md)
 - [kafka](kafka/readme.md)
 - [supervisor](supervisor/readme.md)
-- [wireguard](wireguard/readme.md)
+- [jump](jump/readme.md)

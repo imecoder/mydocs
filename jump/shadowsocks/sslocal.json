@@ -1,0 +1,9 @@
+{
+    "server":"8.222.150.217",
+    "server_port":58388,
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"rui123456",
+    "timeout":300,
+    "method":"rc4-md5"
+}
