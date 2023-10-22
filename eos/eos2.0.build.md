@@ -1,4 +1,4 @@
-# eos build
+# eos2.0 build
 
 ```bash
 git clone https://github.com/EOSIO/eos --recursive
@@ -34,12 +34,12 @@ apt -y install clang-4.0 lldb-4.0 libclang-4.0-dev cmake make \
 ### 1.2 Install Boost 1.67
 ```
 cd ~
-wget -c 'https://sourceforge.net/projects/boost/files/boost/1.67.0/boost_1_66_0.tar.bz2/download' -O boost_1.67.0.tar.bz2
+wget -c 'https://sourceforge.net/projects/boost/files/boost/1.67.0/boost_1_67_0.tar.bz2/download' -O boost_1.67.0.tar.bz2
 tar xjf boost_1.67.0.tar.bz2
-cd boost_1_66_0/
-echo "export BOOST_ROOT=$HOME/boost_1_66_0" >> ~/.bash_profile
+cd boost_1_67_0/
+echo "export BOOST_ROOT=$HOME/boost_1_67_0" >> ~/.bash_profile
 source ~/.bash_profile
-./bootstrap.sh "--prefix=$BOOST_ROOT"
+./bootstrap.sh --prefix=$BOOST_ROOT
 ./b2 install
 source ~/.bash_profile
 ```
@@ -61,7 +61,7 @@ git clone https://github.com/mongodb/mongo-cxx-driver.git --branch releases/stab
 cd mongo-cxx-driver/build
 cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local ..
 make -j4 install
-``` 
+```
 
 ### 1.4 Install secp256k1-zkp (Cryptonomex branch):
 ```

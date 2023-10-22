@@ -2,9 +2,6 @@
 
 - 官方 —— <https://developers.eos.io/>
 - github —— <https://github.com/EOSIO/eos>
-- eos中文社区 —— <https://eosfans.io/>
-- 某个区块浏览器 —— <https://eospark.com/>
-- EOS开发系列目录_币乎 —— https://bihu.com/article/293974
 - EOS.IO中文文档 —— https://eos.readthedocs.io/zh_CN/latest/
 
 ## eos架构图
@@ -14,6 +11,8 @@
 
 ## 操作
 
+- [eosio2.0 编译安装](eos2.0.build.md)
+- [eosio2.1编译安装](eos2.1.build.md)
 - [安装和运行单节点](eosio.start.md)
 - [钱包命令](eosio.wallet.md)
 - [创建账户](eosio.account.md)
