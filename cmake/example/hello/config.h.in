@@ -1,0 +1,3 @@
+#define VERSION "@PROJECT_VERSION@"
+#cmakedefine PRINT_VERSION
+#cmakedefine THIRD_TEST

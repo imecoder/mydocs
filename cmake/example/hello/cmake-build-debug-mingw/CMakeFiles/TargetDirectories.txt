@@ -1,0 +1,3 @@
+D:/mydocs/cmake/example/hello/cmake-build-debug-mingw/CMakeFiles/main.dir
+D:/mydocs/cmake/example/hello/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+D:/mydocs/cmake/example/hello/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
