@@ -42,10 +42,4 @@ pacman -Syu
 pacman -S --needed filesystem msys2-runtime bash libreadline libiconv libarchive libgpgme libcurl pacman ncurses libintl
 ```
 
-## 安装开发工具包
 
-```bash
-pacman -S mingw-w64-x86_64-toolchain    #这里面gcc，gdb，make等都有了。
-pacman -S mingw-w64-x86_64-cmake
-pacman -S mingw-w64-x86_64-clang    #可以单独去仓库中下载指定版本安装
-```
