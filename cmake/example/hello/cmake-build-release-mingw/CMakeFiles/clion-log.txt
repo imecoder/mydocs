@@ -1,6 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" D:\mydocs\cmake\example\hello
--- S{PROJECT_VERSION}
--- D:/mydocs/cmake/example/hello/cmake-build-release-mingw
--- Configuring done
--- Generating done
--- Build files have been written to: D:/mydocs/cmake/example/hello/cmake-build-release-mingw
