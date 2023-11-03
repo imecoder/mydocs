@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 project(main VERSION 2.5)
-message(STATUS S{PROJECT_VERSION})
+message(STATUS ${PROJECT_VERSION})
 
 option(PRINT_VERSION "Whether print version or not" ON)
 option(THIRD_TEST "Whether use third_party function or not" OFF)
