@@ -47,9 +47,8 @@ git push --force <commit id>
 ```bash
 git reset --soft <commit id>	# --soft代表只删除提交记录，不删除本地文件
 								# <commit id> 修改为本分支的第一次提交的id
-git push --force
 git add . 
 git commit -m "initial"
-git push
+git push --force
 ```
 
