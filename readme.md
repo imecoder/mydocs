@@ -18,3 +18,4 @@ git config --global credential.helper store
 * [github使用](github.use.md)
 * [git push 传文件时出错505的原因之一](github.push.error.505.md)
 * [gitlab安装使用](gitlab.install.md)
+* [git review重新提交](gitreview.md)
